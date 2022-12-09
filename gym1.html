@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>BeFit</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<style>
+	body{
+		font-family: 'Baloo Bhai', cursive;
+		color: white;
+		margin: 0px;
+		padding: 0px;
+		background: url('image.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.left{
+		display: inline-block;
+		/*border: 2px solid red;*/
+		position: absolute;
+		left: 40px;
+		top: 20px;
+	}
+	.left img{
+		width: 130px;
+	}
+	.left div{
+		line-height: 10px;
+		font-size: 16px;
+		text-align: center;
+	}
+	.mid{
+		display: block;
+		width: 36%;
+		margin: 29px auto;
+		/*border: 2px solid yellow;*/
+	}
+	.right{
+		position: absolute;
+		right: 34px;
+		top: 43px;
+		display: inline-block;
+		/*border: 2px solid blue;*/
+	}
+	.navbar{
+		display: inline-block;
+	}
+	.navbar li{
+		display: inline-block;
+		font-size: 18px;
+	}
+	.navbar li a{
+		color: white;
+		text-decoration: none;
+		padding: 28px 16px;
+	}
+	.navbar li a:hover, .navbar li a.active{
+		text-decoration: underline;
+		color: grey;
+	}
+	.btn{
+		font-family: 'Baloo Bhai', cursive;
+		margin: 0px 9px;
+		background-color: black;
+		color: white;
+		padding: 4px 14px;
+		border: 2px solid grey;
+		border-radius: 10px;
+		font-size: 15px;
+		cursor: pointer;
+	}
+	.btn:hover{
+		background-color: rgb(41,40,40);
+	}
+
+    .quoteOne{
+       margin: 200px;
+       font-size: 22px;
+       color: red;
+    }
+	.quoteTwo{
+        margin-top:-180px;
+        margin-left: 200px;
+        font-size: 44px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .getStarted{
+        margin-left: 200px;
+        color: white;
+        background-color: black;
+    }
+
+
+    .getStarted:hover{
+        background-color: white;
+        color: black;
+    }
+
+</style>
+<body>
+	<header class="header">
+		<!-- Left box for logo -->
+		<div class="left">
+			<img src="gym3.jpg" alt="">
+			<div>BeFit</div>
+		</div>
+		<!-- Mid box for navigation -->
+		<div class="mid">
+			<ul class="navbar">
+				<li><a href="index.html" >Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="fitnessClub code.html">Join Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		
+	</header>
+	 
+    <p class="quoteOne">Be Strong, Be Fit</p>  
+    <p class="quoteTwo">Make Yourself Stronger <br> Than Your Excuses.</p>
+    <button class="getStarted" style="height:30px;width: 100px;font-weight: bold;font-size: 15px;border-radius: 10px;cursor: pointer;">Get Started</button>
+
+
+    
+</body>
+</html>
